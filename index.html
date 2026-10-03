@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =========================================
+         CAPA SEO Y OPTIMIZACIÓN
+    ========================================= -->
+    <!-- Título Principal (Meta Title): Palabra clave principal + Beneficio -->
+    <title>Quiropráctico Chinchay | Especialistas en Dolor de Espalda, Cuello y Ciática</title>
+    
+    <!-- Meta Descripción (Meta Description): Atrae el clic en los resultados de Google -->
+    <meta name="description" content="Clínica quiropráctica y terapia física. Aliviamos el dolor de espalda, hernias, estrés y ciática con excelencia clínica y un trato humano. ¡Agenda tu cita!">
+    
+    <!-- Palabras Clave (Meta Keywords): Sinónimos y términos más buscados -->
+    <meta name="keywords" content="quiropráctico, clínica quiropráctica, centro quiropráctico, dolor de espalda, dolor de cintura, dolor de cuello, dolor cervical, ajuste quiropráctico, fisioterapia, terapia física, ciática, hernia discal, masajes terapéuticos, rehabilitación física">
+    
+    <!-- Indexación de motores de búsqueda: Le dice a Google que lea la página -->
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Open Graph (Para cuando compartan el link por WhatsApp o Facebook) -->
+    <meta property="og:title" content="Quiropráctico Chinchay | Especialistas en Rehabilitación">
+    <meta property="og:description" content="Alivia tu dolor con nuestros tratamientos quiroprácticos personalizados.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/logo.png">
+    <!-- TODO: reemplazar por una foto real del consultorio (1200x630px recomendado) cuando el cliente la suba -->
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <link rel="icon" type="image/png" href="img/logo.png">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "name": "Chinchay Quiropráctico",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Distrito Huarmaca",
+        "addressRegion": "Provincia de Huancabamba, Región Piura",
+        "addressCountry": "PE"
+      },
+      "openingHours": "Mo-Sa 09:00-19:00",
+      "telephone": "+51 976 823 951",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3000"
+      }
+    }
+    </script>
+    
+    <!-- =========================================
+         RECURSOS Y ESTILOS
+    ========================================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#inicio" class="logo">
+            <img src="img/logo.png" alt="Chinchay Logo">
+            <span class="logo-text">CHINCHAY</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="nav-actions">
+            <a href="#contacto" class="btn-primary">Agenda cita</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="inicio">
+        <div class="hero-content">
+            <span class="badge">BIENESTAR INTEGRAL</span>
+            <h1>Excelencia Clínica.<br><em>Cuidado Humano.</em></h1>
+            <p>Atención especializada en tratamientos quiroprácticos diseñados para aliviar el dolor, mejorar tu movilidad y
+                devolver la vitalidad a tu vida diaria, con un enfoque compasivo y completamente personalizado.</p>
+            <a href="#contacto" class="btn-primary">AGENDA TU CITA</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section" id="acerca">
+        <div class="about-container">
+            <div class="about-image">
+                <!-- INSTRUCCIONES PARA CAMBIAR LA IMAGEN: 
+                1. Asegúrate de tener guardada tu foto como "doctor.jpg" en la carpeta img. -->
+                <picture>
+                    <source srcset="img/doctor.webp" type="image/webp">
+                    <img src="img/doctor.jpg" alt="Consultorio Chinchay" loading="lazy">
+                </picture>
+            </div>
+            <div class="about-text">
+                <span class="section-subtitle">BIENVENIDO A CHINCHAY</span>
+                <h2 class="section-title">¿Qué es <span class="brand-highlight">CHINCHAY</span>?</h2>
+                <p>Dirigido por el <strong>Especialista Dilmer Chinchay Chinchay</strong>, somos un centro de bienestar
+                    quiropráctico enfocado en restaurar el equilibrio natural de tu cuerpo.
+                    Mi compromiso es brindarte atención directa y personalizada, combinando técnicas avanzadas con un trato
+                    empático para asegurar tu recuperación y bienestar a largo plazo.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>15</h3>
+                        <p>Años de Servicio</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>3,000+</h3>
+                        <p>Pacientes Felices</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>4.9/5</h3>
+                        <p>Calificación Promedio</p>
+                    </div>
+                </div>
+                <a href="#servicios" class="btn-secondary">Conoce más &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="servicios">
+        <div class="section-header">
+            <h2 class="section-title">Modalidades Terapéuticas</h2>
+            <p>Descubre nuestros tratamientos diseñados para abordar diversas afecciones y mejorar tu calidad de vida.
+            </p>
+        </div>
+        <!-- INSTRUCCIONES PARA CAMBIAR LAS IMÁGENES DE SERVICIOS: 
+             1. Guarda tus 4 fotos en la carpeta "img".
+             2. Dales el nombre exacto de: servicio-1.jpg, servicio-2.jpg, servicio-3.jpg y servicio-4.jpg -->
+        <div class="services-grid">
+            <div class="service-card">
+                <picture>
+                    <source srcset="img/servicio1.webp" type="image/webp">
+                    <img src="img/servicio1.jpg" alt="Terapia Física" loading="lazy">
+                </picture>
+                <h3>Terapia Física</h3>
+                <p>Rehabilitación y alivio del dolor mediante ejercicios y técnicas manuales.</p>
+                <a href="#contacto" class="btn-card">Agenda tu cita</a>
+            </div>
+            <div class="service-card">
+                <picture>
+                    <source srcset="img/servicio2.webp" type="image/webp">
+                    <img src="img/servicio2.jpg" alt="Ajuste Espinal" loading="lazy">
+                </picture>
+                <h3>Ajuste Espinal</h3>
+                <p>Alineación de la columna para mejorar el sistema nervioso y reducir la tensión.</p>
+                <a href="#contacto" class="btn-card">Agenda tu cita</a>
+            </div>
+            <div class="service-card">
+                <picture>
+                    <source srcset="img/servicio3.webp" type="image/webp">
+                    <img src="img/servicio3.jpg" alt="Análisis de Postura" loading="lazy">
+                </picture>
+                <h3>Análisis de Postura</h3>
+                <p>Evaluación biomecánica para corregir desequilibrios y prevenir lesiones futuras.</p>
+                <a href="#contacto" class="btn-card">Agenda tu cita</a>
+            </div>
+            <div class="service-card">
+                <picture>
+                    <source srcset="img/servicio4.webp" type="image/webp">
+                    <img src="img/servicio4.jpg" alt="Tratamiento de Luxaciones" loading="lazy">
+                </picture>
+                <h3>Tratamiento de Luxaciones</h3>
+                <p>Atención especializada en lesiones deportivas y dislocaciones (ej. jugando fútbol). Reacomodo los huesos a
+                    su posición natural de forma rápida y segura para aliviar el dolor.</p>
+                <a href="#contacto" class="btn-card">Agenda tu cita</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section class="journey section">
+        <div class="section-header text-center">
+            <h2 class="section-title text-white">Su Viaje de Bienestar</h2>
+            <p class="text-white">Un proceso estructurado para garantizar resultados efectivos y una recuperación
+                sostenible.</p>
+        </div>
+        <div class="journey-steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Consulta Inicial</h3>
+                <p>Evaluación completa de tu historial médico, síntomas actuales y objetivos de bienestar.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Diagnóstico y Plan</h3>
+                <p>Análisis detallado para identificar la causa del problema y diseño de un plan de tratamiento
+                    personalizado.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Fase de Tratamiento</h3>
+                <p>Sesiones regulares aplicando las terapias recomendadas, monitoreando tu progreso en cada etapa.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rigor Section -->
+    <section class="rigor section" id="beneficios">
+        <div class="rigor-container">
+            <div class="rigor-image">
+                <!-- INSTRUCCIONES PARA EL VIDEO: 
+                     Guarda tu video MP4 en la carpeta "img" con el nombre exacto de "mi-video.mp4" -->
+                <video id="promoVideo" src="img/mi-video.mp4"
+                    poster="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80"
+                    playsinline></video>
+                <div class="play-button"
+                    onclick="const v = document.getElementById('promoVideo'); v.play(); v.controls = true; this.style.display = 'none';">
+                    ▶</div>
+            </div>
+            <div class="rigor-text">
+                <span class="section-subtitle">ENFOQUE PROFESIONAL</span>
+                <h2 class="section-title">Rigor clínico con trato cercano</h2>
+                <p>Bajo la atención directa y experta del <strong>Especialista Dilmer Chinchay</strong>, combinamos el rigor
+                    científico y la evidencia médica con una atención cálida y humana, asegurando que te sientas cómodo
+                    y en las mejores manos en cada sesión.</p>
+
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <h4>Atención Especializada</h4>
+                        <p>Tratamientos diseñados específicamente para tus necesidades particulares.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h4>Enfoque Integral</h4>
+                        <p>No solo tratamos el síntoma, buscamos la causa raíz de tu malestar.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h4>Ambiente Confortable</h4>
+                        <p>Instalaciones modernas y relajantes para una experiencia positiva.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <h4>Tecnología Avanzada</h4>
+                        <p>Uso de equipos modernos para diagnósticos y terapias precisas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trato Distinto Section -->
+    <section class="trato-distinto section">
+        <div class="trato-container">
+            <div class="trato-text">
+                <span class="section-subtitle">POR QUÉ CHINCHAY</span>
+                <h2 class="section-title">Tu salud merece un trato distinto</h2>
+                <p>Todo el mundo dice que da el mejor trato. Pocos saben cómo lograrlo.</p>
+                <div class="trato-list-premium">
+                    <div class="trato-item-premium">
+                        <div class="icon-premium">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                            </svg>
+                        </div>
+                        <div class="trato-item-content">
+                            <h4>Clínica de autor</h4>
+                            <p>Trabajamos con calidez y como si estuvieras en tu propia casa.</p>
+                        </div>
+                    </div>
+                    <div class="trato-item-premium">
+                        <div class="icon-premium">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                            </svg>
+                        </div>
+                        <div class="trato-item-content">
+                            <h4>Acompañamiento profesional</h4>
+                            <p>Me enfoco en tu bienestar real, más allá de la sesión actual.</p>
+                        </div>
+                    </div>
+                    <div class="trato-item-premium">
+                        <div class="icon-premium">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <div class="trato-item-content">
+                            <h4>Atención personalizada</h4>
+                            <p>Sin prisa, sin presiones. Tú eres el centro.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trato-cards">
+                <div class="t-card dark-green">
+                    <!-- INSTRUCCIONES: Guarda tu imagen en la carpeta "img" con el nombre exacto de "atencion.jpg" -->
+                    <picture>
+                        <source srcset="img/atencion.webp" type="image/webp">
+                        <img src="img/atencion.jpg" alt="Atención continua" loading="lazy">
+                    </picture>
+                    <p>Atención continua</p>
+                </div>
+                <div class="t-cards-right">
+                    <div class="t-card gold">
+                        <p>1,500+</p>
+                        <span>Sesiones con éxito</span>
+                    </div>
+                    <div class="t-card green">
+                        <p>4.9/5</p>
+                        <span>Reseñas positivas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonios">
+        <div class="section-header text-center">
+            <h2 class="section-title">Lo que dicen nuestros pacientes</h2>
+            <p>Historias reales de recuperación que demuestran que un tratamiento de calidad cambia tu calidad de vida.
+            </p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card-premium">
+                <div class="stars">★★★★★</div>
+                <p>"Llegué con un dolor lumbar fuerte y apenas podía caminar. Después de un par de sesiones me siento
+                    como nueva. Lo recomiendo."</p>
+                <div class="patient-info">
+                    <div class="avatar-ring">
+                        <div class="avatar-premium avatar-initials">LG</div>
+                        <!-- <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&q=80"
+                            alt="Paciente 1" class="avatar-premium"> -->
+                    </div>
+                    <div class="patient-details">
+                        <h4>Laura G.</h4>
+                        <span>Paciente desde 2024</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card-premium">
+                <div class="stars">★★★★★</div>
+                <p>"Mi problema era de años y nadie daba en el clavo. Aquí me explicaron qué me pasaba y ahora hago mi
+                    vida con normalidad."</p>
+                <div class="patient-info">
+                    <div class="avatar-ring">
+                        <div class="avatar-premium avatar-initials">MT</div>
+                        <!-- <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80"
+                            alt="Paciente 2" class="avatar-premium"> -->
+                    </div>
+                    <div class="patient-details">
+                        <h4>Miguel T.</h4>
+                        <span>Paciente desde 2023</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card-premium">
+                <div class="stars">★★★★★</div>
+                <p>"Excelente atención. Me siento mucho más relajada y puedo hacer mis ejercicios sin dolor alguno.
+                    Muchas gracias."</p>
+                <div class="patient-info">
+                    <div class="avatar-ring">
+                        <div class="avatar-premium avatar-initials">AC</div>
+                        <!-- <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=150&q=80"
+                            alt="Paciente 3" class="avatar-premium"> -->
+                    </div>
+                    <div class="patient-details">
+                        <h4>Ana María C.</h4>
+                        <span>Paciente desde 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Pricing Section -->
+    <section class="contact-section section" id="contacto">
+        <div class="contact-container">
+            <div class="contact-info">
+                <span class="section-subtitle">AGENDA</span>
+                <h2 class="section-title text-white">Agenda tu cita en menos de un minuto</h2>
+                <p class="text-white">Completa el formulario y nos pondremos en contacto contigo para confirmar la
+                    disponibilidad.</p>
+                <ul class="contact-features">
+                    <li>Atención personalizada</li>
+                    <li>Sin tiempos de espera prolongados</li>
+                    <li>Ambiente seguro y confiable</li>
+                </ul>
+            </div>
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="whatsappForm">
+                    <div class="form-group">
+                        <input type="text" id="wpNombre" placeholder="Nombres completos"
+                            pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+"
+                            title="Solo se permiten letras mayúsculas, minúsculas y espacios" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="wpLugar" placeholder="Lugar (Ciudad/Distrito)" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="wpServicio" required>
+                                <option value="">Selecciona un servicio</option>
+                                <option value="Terapia Física">Terapia Física</option>
+                                <option value="Ajuste Espinal">Ajuste Espinal</option>
+                                <option value="Tratamiento de Luxaciones">Tratamiento de Luxaciones</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="wpEdad" placeholder="Edad" min="1" max="120" step="1"
+                            title="Ingresa una edad válida en números" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="wpConsulta" placeholder="¿Cuál es tu consulta? (Opcional)" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">CONFIRMAR MI CITA</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultas y Precios Section -->
+    <section class="info-section section">
+        <div class="info-container">
+            <div class="info-text">
+                <span class="section-subtitle">INFORMACIÓN</span>
+                <h2 class="section-title">Consultas, precios y ubicación</h2>
+
+                <div class="info-block">
+                    <h4>Dirección</h4>
+                    <p>Distrito Huarmaca<br>Provincia de Huancabamba, Región Piura</p>
+                </div>
+
+                <div class="info-block">
+                    <h4>Horario de Atención</h4>
+                    <p>Lunes a Sábado: 9:00 am - 7:00 pm</p>
+                </div>
+
+                <div class="info-alert">
+                    <p>Consulta nuestros precios y resuelve tus dudas escribiéndonos por WhatsApp. <br />
+                        <em>¡Agenda tu cita ahora para brindarte toda la información y la mejor atención!</em>
+                    </p>
+                    <a href="#contacto" class="btn-primary" style="margin-top: 15px;">Agenda tu consulta</a>
+                </div>
+            </div>
+            <div class="info-map">
+                <iframe
+                    src="https://maps.google.com/maps?q=Huarmaca,%20Huancabamba,%20Piura,%20Peru&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    width="100%" height="100%" style="border:0; border-radius: 20px; min-height: 300px;"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq section">
+        <div class="section-header text-center">
+            <h2 class="section-title">Preguntas sobre el tratamiento</h2>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">¿Duele el ajuste quiropráctico?</button>
+                <div class="faq-answer">
+                    <p>En la mayoría de los casos no hay dolor, de hecho se siente un gran alivio. A veces puede haber
+                        una pequeña molestia temporal mientras los músculos se ajustan, pero es totalmente normal y
+                        desaparece rápidamente.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">¿Cuánto dura una sesión?</button>
+                <div class="faq-answer">
+                    <p>La primera visita suele tomar entre 45 minutos a 1 hora debido a la evaluación inicial. Las
+                        visitas posteriores toman de 15 a 30 minutos dependiendo del tratamiento.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">¿Cuántas sesiones necesitaré?</button>
+                <div class="faq-answer">
+                    <p>Depende de cada caso y de la gravedad del problema. Luego de la primera evaluación, el doctor te
+                        recomendará un plan de atención específico para ti.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">¿Es seguro para mujeres embarazadas?</button>
+                <div class="faq-answer">
+                    <p>Sí, la quiropráctica es muy segura y beneficiosa durante el embarazo. Utilizamos técnicas
+                        especiales para asegurar el confort y bienestar tanto de la madre como del bebé.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <!-- Ciudad y árboles (Siluetas) -->
+                <!-- Izquierda -->
+                <rect x="30" y="80" width="20" height="40" fill="var(--bg-dark)" />
+                <rect x="60" y="60" width="35" height="60" fill="var(--bg-dark)" />
+                <rect x="105" y="70" width="25" height="50" fill="var(--bg-dark)" />
+                <circle cx="170" cy="75" r="12" fill="var(--bg-dark)" />
+                <rect x="168" y="87" width="4" height="20" fill="var(--bg-dark)" />
+                <circle cx="200" cy="85" r="8" fill="var(--bg-dark)" />
+                <rect x="198" y="93" width="3" height="15" fill="var(--bg-dark)" />
+                <!-- Centro -->
+                <rect x="550" y="50" width="40" height="70" fill="var(--bg-dark)" />
+                <rect x="600" y="30" width="30" height="90" fill="var(--bg-dark)" />
+                <rect x="640" y="60" width="50" height="60" fill="var(--bg-dark)" />
+                <circle cx="720" cy="50" r="20" fill="var(--bg-dark)" />
+                <rect x="718" y="70" width="4" height="30" fill="var(--bg-dark)" />
+                <!-- Derecha -->
+                <rect x="950" y="70" width="40" height="50" fill="var(--bg-dark)" />
+                <rect x="1000" y="50" width="30" height="70" fill="var(--bg-dark)" />
+                <circle cx="1080" cy="65" r="15" fill="var(--bg-dark)" />
+                <rect x="1078" y="80" width="4" height="25" fill="var(--bg-dark)" />
+                <circle cx="1120" cy="80" r="10" fill="var(--bg-dark)" />
+                <rect x="1118" y="90" width="4" height="15" fill="var(--bg-dark)" />
+
+                <!-- Ola Principal -->
+                <path d="M0,120 C150,120 300,50 600,70 C900,90 1050,40 1200,80 L1200,120 L0,120 Z"
+                    fill="var(--bg-dark)" />
+            </svg>
+        </div>
+        <div class="footer-content-new">
+            <div class="footer-col">
+                <div class="social-links" style="margin-top: 0;">
+                    <span>Síguenos en</span>
+                    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="https://www.tiktok.com" target="_blank" aria-label="TikTok">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Términos y condiciones</h4>
+                <ul>
+                    <li>¡Resultados desde la primera sesión!</li>
+                    <li>Satisfacción garantizada</li>
+                    <li>Especialistas certificados</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Información</h4>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#acerca">Nosotros en Chinchay</a></li>
+                    <li><a href="#">Políticas Legales</a></li>
+                    <li class="phone-link">0800 098 8300</li>
+                    <li class="email-link">hola@chinchay.com</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p class="company-name">Chinchay Quiropráctico</p>
+                <p>Número de compañía: 559063-2377</p>
+
+                <h4 class="mt-20">Oficina central:</h4>
+                <p>Distrito Huarmaca, Huancabamba</p>
+                <p>Región Piura, Perú</p>
+            </div>
+        </div>
+        <div class="footer-bottom-new" style="justify-content: center;">
+            <div class="footer-bottom-center">
+                <p class="copyright">&copy; 2010-2026 Chinchay. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a id="whatsapp-float-btn" class="whatsapp-float" target="_blank" aria-label="Contáctanos por WhatsApp" style="cursor: pointer;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" loading="lazy">
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
